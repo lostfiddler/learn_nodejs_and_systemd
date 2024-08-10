@@ -1,0 +1,8 @@
+[Unit]
+Description=learn how nodejs and systemd behave together
+
+[Service]
+ExecStart=/usr/bin/node /home/ian/temp/learn_nodejs_and_systemd/main.js
+
+[Install]
+WantedBy=multi-user.target
